@@ -63,7 +63,7 @@
     }
     .style-summary button{
         position:relative;
-        top:1px;
+        top:-10px;
         width:150px;
         color:rgba(255, 255, 255, 0.548);
 
