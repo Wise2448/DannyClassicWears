@@ -4,6 +4,7 @@ body{
     /*overflow-x:hidden;*/
     color: color-mix(in srgb, grey , white 70%);
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 header{
     padding-top:20px;
@@ -76,9 +77,42 @@ section:hover{
     top:30px;
     display: flex;
     justify-content: space-between;
-    overflow-x: scroll;
     gap:20px;
+    animation-name: art;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
+.style-art-container:hover{
+transition:none;
+}
+@keyframes art{
+   0%{
+    left:0;
+   }
+    16%{
+        left:-300px;
+    }
+    32%{
+        left:-600px;
+    }
+    48%{
+        left:-900px;
+    }
+    64%{
+        left:-600px;
+    }
+    80%{
+        left:-300px;
+    }
+    100%{
+        left:0;
+    }
+}
+
+
+
+
 .style-head{
     text-align: center;
 }

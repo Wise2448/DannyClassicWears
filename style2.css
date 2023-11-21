@@ -43,6 +43,7 @@
         overflow-x: hidden;
         height: 340px;
         gap:40px;
+        animation-name: none;
     }
     .style-img{
         width:300px;
