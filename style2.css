@@ -47,6 +47,8 @@
         left:100px;
     }
     .style-summary button{
+        position:relative;
+        top:10px;
         width:150px;
         color:rgba(255, 255, 255, 0.548);
 
