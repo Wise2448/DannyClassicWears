@@ -1,5 +1,7 @@
 @media (max-width:480px){
-    
+    h1{
+        color:white;
+    }
     section{
     left:7px;
     text-shadow: 2px 2px 2px black;
@@ -10,7 +12,7 @@
         scale:100%;
     }
     nav{
-        font-size:1rem;
+        font-size:22px;
     }
     main{
         position:relative;
@@ -23,7 +25,7 @@
         position: relative;
         top:80px;
     }
-    .style{
+    #style{
         top:90px;
     }
     .style-art-container{
@@ -32,6 +34,7 @@
         flex-direction:column;
         overflow-y:scroll;
         height: 340px;
+        gap:40px;
     }
     .style-img{
         width:300px;

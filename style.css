@@ -16,22 +16,30 @@ nav{
     font-size:1.5rem;
    
 }
-ul{
+ul, a{
 color:color-mix(in srgb, grey 70%, white );
     background-color: rgba(0, 0, 0, 0.658);
     display: flex;
     justify-content: space-evenly;
     list-style: none;  
 }
-li{
-    padding:10px;
-    transition-property:color;
+a{
+    text-decoration: none;
+    background:none;
+    transition-property:background-color;
     transition-duration: 300ms;
     transition-timing-function: ease-in-out;
     cursor:pointer;
+    padding:5px;
+    border-radius:10%;
 }
-li:hover{
+li{
+    padding:10px;
+   
+}
+a:hover{
     color: color-mix(in srgb, grey , white 70%);
+    background-color: grey;
 }
 main{
     width:100%;
@@ -58,7 +66,7 @@ section:hover{
     position: relative;
     top:120px;
 }
-.style{
+#style{
     position:relative;
     top:150px;
     padding:20px;
