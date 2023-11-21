@@ -1,4 +1,8 @@
 @media (max-width:480px){
+html{
+    scroll-behavior: smooth;
+}
+
     h1{
         color:white;
     }
