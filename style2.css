@@ -9,6 +9,9 @@
     section:hover{
         scale:100%;
     }
+    nav{
+        font-size:1rem;
+    }
     main{
         position:relative;
     }
@@ -33,7 +36,8 @@
     .style-img{
         width:300px;
         height:300px;
-        border-radius: 20%;
+        border-top-left-radius:10%;
+        border-bottom-right-radius:10%;
     }
     .style-art{
         position:relative;
@@ -48,7 +52,7 @@
     }
     .style-summary button{
         position:relative;
-        top:10px;
+        top:15px;
         width:150px;
         color:rgba(255, 255, 255, 0.548);
 
