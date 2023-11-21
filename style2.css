@@ -38,7 +38,7 @@
     }
     body{
         background-image: url(image/alexander-andrews-jNKv4QohAk0-unsplash.jpg);
-        color:white;
+        color:rgba(255, 255, 255, 0.548);
     }
     .style-summary{
         left:100px;
