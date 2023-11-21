@@ -1,14 +1,19 @@
 
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*overflow-x:hidden;*/
+    color: color-mix(in srgb, grey , white 70%);
+    scroll-behavior: smooth;
 }
 header{
+    padding-top:20px;
     background-color: rgba(0, 0, 0, 0.658);
     text-align:center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
 }
 nav{
     text-align: center;
+    font-size:1.5rem;
    
 }
 ul{
@@ -28,3 +33,74 @@ li{
 li:hover{
     color: color-mix(in srgb, grey , white 70%);
 }
+main{
+    width:100%;
+}
+
+section{
+    position: relative;
+    top:80px;
+    left:650px;
+    color: color-mix(in srgb, grey , white 70%);
+    transition-property: scale;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    font-size:1.5rem;
+}
+section:hover{
+    scale:110%;
+}
+.deliver{
+    position: relative;
+    top:100px;
+}
+.excellent{
+    position: relative;
+    top:120px;
+}
+.style{
+    position:relative;
+    top:150px;
+    padding:20px;
+}
+.style-art-container{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    gap:20px;
+}
+.style-head{
+    text-align: center;
+}
+.style-img{
+    width:200px;
+    height:200px;
+}
+.style-summary{
+position: relative;
+left:50px;
+}
+.style-summary button{
+    width:100px;
+    height:30px;
+    color: color-mix(in srgb, grey , white 70%);
+background-color: black;
+outline: 0;
+border:0;
+transition-property:background-color;
+transition-duration: 300ms;
+transition-timing-function: ease-in-out;
+cursor:pointer;
+}
+.style-summary button:hover{
+background-color: color-mix(in srgb, black 90%, white);
+}
+
+
+
+
+
+
+
+
+

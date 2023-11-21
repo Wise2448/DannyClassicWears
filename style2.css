@@ -1,0 +1,48 @@
+@media (max-width:480px){
+    
+    section{
+    left:7px;
+    text-shadow: 2px 2px 2px black;
+    top:20px;
+    font-size:20px;
+    }
+    section:hover{
+        scale:100%;
+    }
+    main{
+        position:relative;
+    }
+    .deliver{
+        position: relative;
+        top:50px;
+    }
+    .excellent{
+        position: relative;
+        top:80px;
+    }
+    .style{
+        top:90px;
+    }
+    .style-art-container{
+        flex-direction:column;
+        overflow-y:scroll;
+        height: 700px;
+    }
+    .style-img{
+        width:300px;
+        height:300px;
+    }
+    .style-art{
+        position:relative;
+        left:10px;
+    }
+    body{
+        background-image: url(image/alexander-andrews-jNKv4QohAk0-unsplash.jpg);
+    }
+    .style-summary{
+        left:100px;
+    }
+    .style-summary button{
+        width:150px;
+    }
+}
