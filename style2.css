@@ -11,6 +11,9 @@
     section:hover{
         scale:100%;
     }
+    a:active{
+        background-color: grey;
+    }
     nav{
         font-size:22px;
     }
@@ -58,6 +61,10 @@
         top:15px;
         width:150px;
         color:rgba(255, 255, 255, 0.548);
+
+    }
+    .style-summary button:active{
+background-color: color-mix(in srgb, black 90%, white);
 
     }
 }
