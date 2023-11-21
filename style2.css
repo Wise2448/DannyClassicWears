@@ -11,6 +11,10 @@
     section:hover{
         scale:100%;
     }
+    a{
+        color:rgba(255, 255, 255, 0.548);
+
+    }
     a:active{
         background-color: grey;
     }
