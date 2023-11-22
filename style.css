@@ -7,6 +7,12 @@ body{
     color: color-mix(in srgb, grey , white 70%);
     overflow-x: hidden;
 }
+#ord{
+    position: relative;
+left:800px;
+scale:120%;
+    top:170px;
+}
 header{
     padding-top:20px;
     background-color: rgba(0, 0, 0, 0.658);

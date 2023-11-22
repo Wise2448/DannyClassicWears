@@ -84,4 +84,7 @@ html{
 background-color: color-mix(in srgb, black 90%, white);
 
     }
+    #ord{
+        display: none;
+    }
 }
