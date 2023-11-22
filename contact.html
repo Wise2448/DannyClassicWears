@@ -6,7 +6,11 @@
     <link rel="stylesheet" href="contact.css" />
     <title>Contact Dannyclassic wears</title>
   </head>
-
+  <script>
+    function show() {
+      alert("Thanks for your patronage");
+    }
+  </script>
   <body>
     <header><h1>DannyClassic wears</h1></header>
 
@@ -19,7 +23,7 @@
         name="customer-name"
         placeholder="please input name"
       />
-      <legend>Customer Phone Number</legend>
+      <legend>Customer's Whatsapp Number</legend>
       <input
         type="tel"
         class="form-input"
@@ -32,6 +36,13 @@
         placeholder="Please input desired style"
         class="form-input"
         name="style"
+      />
+      <legend>Measurement</legend>
+      <input
+        type="text"
+        name="customers-measurement"
+        placeholder="Input measurement if you have"
+        class="form-input"
       />
       <legend>When do you want it delivered?</legend>
       <input
@@ -48,7 +59,12 @@
         class="form-input"
         name="location"
       />
-      <input type="submit" value="Submit Request" class="submit-btn" />
+      <input
+        type="submit"
+        onclick="show"
+        value="Submit Request"
+        class="submit-btn"
+      />
     </form>
   </body>
 </html>
