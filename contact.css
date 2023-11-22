@@ -64,10 +64,12 @@ scale:105%;
 }
 @media (max-width:480px){
     form{
-        left:65px;
+        left:30px;
     }
     body{
         background-size: 500px 500px;
         overflow: hidden;
+        color:rgba(255, 255, 255, 0.548);
+
     }
 }
