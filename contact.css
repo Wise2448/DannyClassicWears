@@ -72,4 +72,10 @@ scale:105%;
         color:rgba(255, 255, 255, 0.548);
 
     }
+    header{
+        position: relative;
+        left:30px;
+        top:30px;
+        color: white;
+    }
 }
