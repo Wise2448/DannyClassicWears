@@ -72,6 +72,9 @@ scale:105%;
         color:rgba(255, 255, 255, 0.548);
 
     }
+    input{
+        color:white;
+    }
     header{
         position: relative;
         left:30px;
