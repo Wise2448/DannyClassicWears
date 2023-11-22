@@ -61,7 +61,7 @@ section{
     transition-property: scale;
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
-    font-size:1.5rem;
+    font-size:1.5rem;cursor:pointer;
 }
 section:hover{
     scale:110%;
