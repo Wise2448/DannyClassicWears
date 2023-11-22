@@ -134,7 +134,7 @@ transition:none;
 position: relative;
 left:50px;
 }
-.style-summary button{
+.style-summary .button{
     width:100px;
     height:30px;
     color: color-mix(in srgb, grey , white 70%);
@@ -146,7 +146,7 @@ transition-duration: 300ms;
 transition-timing-function: ease-in-out;
 cursor:pointer;
 }
-.style-summary button:hover{
+.style-summary .button:hover{
 background-color: color-mix(in srgb, black 90%, white);
 }
 
