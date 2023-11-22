@@ -2,6 +2,10 @@
     box-sizing: border-box;
     margin:0;
 }
+HEADER{
+    COLOR:WHITE;
+    text-align: center;
+}
 body{
     background-image: url(image/alexander-andrews-jNKv4QohAk0-unsplash.jpg);
     background-size: cover;
@@ -11,7 +15,7 @@ form{
     padding:20px;
     width:300px;
     position:relative;
-    left:500px;
+    left:530px;
     top:50px;
     color: color-mix(in srgb, grey , white 70%);
     box-shadow:1px 4px 3px grey;
