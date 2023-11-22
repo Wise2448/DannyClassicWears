@@ -10,13 +10,14 @@
   <body>
     <header><h1>DannyClassic wears</h1></header>
 
-    <form action="">
+    <form action="https://formspree.io/f/mwkdjdjn" method="post">
       <h2>Contact us</h2>
       <legend>What Style do you want?</legend>
       <input
         type="text"
         placeholder="Please input desired style"
         class="form-input"
+        name="style"
       />
       <legend>When do you want it delivered?</legend>
       <input
@@ -24,12 +25,14 @@
         value="2000-01-01"
         placeholder="MM/DD/YYYY"
         class="form-input"
+        name="date"
       />
       <legend>What location do you want it delivered to?</legend>
       <input
         type="geolocation"
         placeholder="City, State or ZIP code"
         class="form-input"
+        name="location"
       />
       <input type="submit" value="Submit Request" class="submit-btn" />
     </form>
