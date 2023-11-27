@@ -51,6 +51,7 @@ a:hover{
 }
 main{
     width:100%;
+    height: fit-content;
 }
 
 section{
@@ -76,7 +77,6 @@ section:hover{
 }
 #style{
     position:relative;
-    top:150px;
     padding:20px;
 }
 .style-art-container{
@@ -173,6 +173,45 @@ background-color: color-mix(in srgb, black 90%, white);
     justify-content: space-evenly;
 }
 
+#about{
+    position:relative;
+}
+.style2-styles{
+    width:350px;
+    padding:20px;
+    flex-grow:1;
 
+}
+.style2-styles-img{
+    width:300px;
+    height:300px;
+}
+.style2-styles-text{
+    text-align: center;
+    z-index: 5;
+}
+.order-icon{
+    position:relative;
+top:-3px;
+    left:-20px;
+    width:30px;
+}
+.order-btn{
+    text-indent: -100px;
+    outline:0;
+    background: grey;
+    color:white;
+    font-size:20px;
+    border:0;
+    padding:5px;
+    border-radius: 5%;
+    cursor:pointer;
+}
+.style2-article-container{
+    display:flex;
+    flex-wrap: wrap;
 
-
+}
+.searchbar{
+    display:none;
+}
