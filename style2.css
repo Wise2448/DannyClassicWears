@@ -30,6 +30,8 @@ html{
     }
     nav{
         font-size:20px;
+        position: relative;
+        left:-15px;
     }
     main{
         position:relative;
@@ -90,7 +92,7 @@ background-color: color-mix(in srgb, black 90%, white);
     }
     .style2-styles-img{
         position: relative;
-        left:40px;
+        left:7px;
     }
     .style2-styles{
         position: relative;
