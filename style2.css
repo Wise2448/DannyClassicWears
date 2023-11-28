@@ -121,6 +121,7 @@ background-color: color-mix(in srgb, black 90%, white);
         width:80%;
         padding-left:10px;
         font-size:20px;
+        color:white;
     }
     .searchbar-input::placeholder{
         color:white;
@@ -156,6 +157,10 @@ background-color: color-mix(in srgb, black 90%, white);
 .home-div-icons{
     width:30px;
     filter: invert(100%) contrast(100%);
+}
+.order-btn{
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 }
